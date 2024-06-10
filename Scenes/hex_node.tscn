@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://we5hurbrvamq"]
+
+[ext_resource type="Script" path="res://scripts/Hex.gd" id="1_iaqbv"]
+
+[node name="HexNode" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+script = ExtResource("1_iaqbv")
+
+[node name="OutlinePolygon" type="Polygon2D" parent="Polygon2D"]
+z_index = -1
