@@ -7,5 +7,5 @@
 [node name="HexGrid" parent="." instance=ExtResource("1_edufh")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(243, 364)
-zoom = Vector2(0.635, 0.635)
+position = Vector2(577, 319)
+zoom = Vector2(0.66, 0.66)
